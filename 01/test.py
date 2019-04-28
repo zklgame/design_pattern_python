@@ -5,7 +5,13 @@ from mallard_duck import MallardDuck
 from model_duck import ModelDuck
 
 
-class TestFlyBehavior(unittest.TestCase):
+class TestCase(unittest.TestCase):
+
+    def tearDown(self):
+        print('##################################')
+
+
+class TestFlyBehavior(TestCase):
 
     def test_FlyWithWings(self):
         fly_behavior = FlyWithWings()
@@ -16,7 +22,7 @@ class TestFlyBehavior(unittest.TestCase):
         fly_behavior.fly()
 
 
-class TestQuackBehavior(unittest.TestCase):
+class TestQuackBehavior(TestCase):
 
     def test_Quack(self):
         quack_behavior = Quack()
@@ -31,13 +37,13 @@ class TestQuackBehavior(unittest.TestCase):
         quack_behavior.quack()
 
 
-class TestDuck(unittest.TestCase):
+class TestDuck(TestCase):
 
-    def test_mallard_duck(self):
+    def test_MallardDuck(self):
         duck = MallardDuck()
         self.simulate(duck)
 
-    def test_model_duck(self):
+    def test_ModelDuck(self):
         duck = ModelDuck()
         self.simulate(duck)
 
