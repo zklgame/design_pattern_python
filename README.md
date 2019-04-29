@@ -5,4 +5,5 @@ Finished:
 - [x] ch01: **Strategy Pattern**
 - [x] ch02: **Observer Pattern**
 
+- [x] ch03: **Decorator Pattern**
 
