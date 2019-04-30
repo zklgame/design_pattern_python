@@ -6,5 +6,4 @@ Finished:
 - [x] ch02: **Observer Pattern**
 - [x] ch03: **Decorator Pattern**
 - [x] ch04: **Factory Pattern**
-
-
+- [x] ch05: **Singleton Pattern**
