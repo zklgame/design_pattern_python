@@ -7,3 +7,4 @@ Finished:
 - [x] ch03: **Decorator Pattern**
 - [x] ch04: **Factory Pattern**
 - [x] ch05: **Singleton Pattern**
+- [x] ch06: **Command Pattern**
