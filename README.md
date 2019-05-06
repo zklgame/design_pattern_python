@@ -9,3 +9,4 @@ Finished:
 - [x] ch05: **Singleton Pattern**
 - [x] ch06: **Command Pattern**
 - [x] ch07: **Adapter Pattern**
+- [x] ch08: **Template Method Pattern**
