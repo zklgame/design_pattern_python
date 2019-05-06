@@ -8,3 +8,4 @@ Finished:
 - [x] ch04: **Factory Pattern**
 - [x] ch05: **Singleton Pattern**
 - [x] ch06: **Command Pattern**
+- [x] ch07: **Adapter Pattern**
