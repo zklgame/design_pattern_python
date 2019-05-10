@@ -12,3 +12,4 @@ Finished:
 - [x] ch08: **Template Method Pattern**
 - [x] ch09: **Iterator Pattern && Composite Pattern**
 - [x] ch10: **State Pattern**
+- [x] ch11: **Proxy Pattern**
